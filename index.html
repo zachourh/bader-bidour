@@ -6,7 +6,7 @@
     <title>Bader Al Bidour | Where Luxury Finds Its Owner</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -268,64 +268,88 @@
     </section>
 
     <!-- ========== FOOTER ========== -->
-    <footer class="footer" id="contact">
-        <div class="footer-top">
-            <div class="footer-logo">
-                <div class="logo-mark">B</div>
-                <span class="footer-brand">Bader Al Bidour</span>
+    <footer class="footer-v2" id="contact">
+
+        <div class="footer-main">
+
+            <!-- LEFT COLUMN: Video -->
+            <div class="footer-video-col">
+                <video class="footer-bg-video" autoplay muted loop playsinline>
+                    <source src="https://zakariaourhou.com/wp-content/uploads/2026/02/Car-Blac-Compressed.mp4" type="video/mp4">
+                </video>
             </div>
-        </div>
 
-        <div class="footer-car">
-            <!-- Replace with your footer car image: <img src="images/footer-car.jpg" alt="" class="footer-car-img"> -->
-            <div class="footer-car-placeholder"></div>
-        </div>
+            <!-- RIGHT COLUMN: Content -->
+            <div class="footer-content-col">
+                <div class="footer-content-inner">
 
-        <div class="footer-bottom">
-            <div class="container footer-grid">
-                <div class="footer-nav">
-                    <h4>Home</h4>
-                    <ul>
-                        <li><a href="#home">About Us</a></li>
-                        <li><a href="#services">Trade Language</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact-section">
-                    <h4>Contact Us</h4>
-                    <div class="footer-phone">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 5.61 5.61l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                        </svg>
-                        <span>+971 55 552 2422</span>
+                    <!-- Logo -->
+                    <div class="footer-logo-v2">
+                        <div class="footer-logo-mark">B</div>
+                        <div class="footer-logo-textblock">
+                            <span class="footer-logo-brand">Bader Al Bidour</span>
+                            <span class="footer-logo-sub">Automobile Shop</span>
+                        </div>
                     </div>
-                    <form class="contact-form">
-                        <input type="text" placeholder="Your Name" class="form-input">
-                        <input type="email" placeholder="Your Email" class="form-input">
-                        <button type="submit" class="btn-submit">Submit</button>
-                    </form>
+
+                    <!-- Two-column grid: Nav + Contact -->
+                    <div class="footer-columns">
+
+                        <!-- NAV + SOCIAL -->
+                        <div class="footer-nav-v2">
+                            <nav class="footer-links">
+                                <a href="#home" class="footer-link">Home</a>
+                                <a href="#collection" class="footer-link">Collection</a>
+                                <a href="#contact" class="footer-link">Contact</a>
+                            </nav>
+                            <div class="footer-social-v2">
+                                <a href="#" class="footer-social-icon" aria-label="Instagram">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </a>
+                                <a href="#" class="footer-social-icon" aria-label="Facebook">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="footer-social-icon" aria-label="TikTok">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- CONTACT FORM -->
+                        <div class="footer-contact-v2">
+                            <p class="footer-contact-heading">Contact Us</p>
+                            <a href="tel:+971555523422" class="footer-phone-v2">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 5.61 5.61l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                                <span>+971 55 552 3422</span>
+                            </a>
+                            <form class="footer-form-v2">
+                                <input type="text" placeholder="Your message" class="footer-input">
+                                <textarea placeholder="Your email" class="footer-textarea"></textarea>
+                                <button type="submit" class="footer-submit">Submit</button>
+                            </form>
+                        </div>
+
+                    </div>
                 </div>
             </div>
+
         </div>
 
-        <div class="footer-social">
-            <a href="#" class="social-link" aria-label="Instagram">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                </svg>
-            </a>
-            <a href="#" class="social-link" aria-label="Facebook">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                </svg>
-            </a>
-            <a href="#" class="social-link" aria-label="TikTok">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
-                </svg>
-            </a>
+        <!-- COPYRIGHT BAR — full width -->
+        <div class="footer-copyright">
+            <p>Bader Al Bidour © 2026. All rights reserved.</p>
         </div>
+
     </footer>
 
 
